@@ -1,0 +1,18 @@
+name: base-debs
+type: apt
+source:
+  packages:
+    - nfs-common
+    - nfs-kernel-server
+    - docker-compose
+    - gamemode
+    - piper
+    - ratbagd
+    - cron
+    - zsh
+    - fzf
+    - zoxide
+    - linux-headers-amd64
+    - zfsutils-linux
+    - zfs-dkms
+    - zfs-zed
