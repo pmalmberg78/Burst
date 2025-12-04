@@ -1,10 +1,10 @@
 name: Vib Build
 
 on:
-  push:
-    branches:
-      - "main"
-      - "dev"
+#  push:
+#    branches:
+#      - "main"
+#      - "dev"
     tags:
       - "*"
   workflow_dispatch:
